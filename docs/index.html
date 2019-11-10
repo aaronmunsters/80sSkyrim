@@ -24,7 +24,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function(dosbox) {
-          dosbox.run("./SKYRIM.zip", "./SKYRIM.COM");
+          dosbox.run("https://cdn.jsdelivr.net/gh/aaronmunsters/80sSkyrim/docs/SKYRIM.zip", "./SKYRIM.COM");
         },
         onrun: function(dosbox, app) {
           console.log("App '" + app + "' is runned");
